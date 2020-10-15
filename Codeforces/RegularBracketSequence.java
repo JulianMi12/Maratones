@@ -29,6 +29,8 @@ public class RegularBracketSequence {
                 }
             }
         }
-        System.out.println(tot);
+        br.write(String.valueOf(tot));
+        br.newLine();
+        br.close();
     }
 }
